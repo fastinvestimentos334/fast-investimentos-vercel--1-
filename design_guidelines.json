@@ -1,0 +1,279 @@
+{
+  "project_name": "FAST INVESTIMENTOS",
+  "app_type": "hybrid_fullstack",
+  "template": "farm-ts",
+  "locale": {
+    "language": "pt-BR",
+    "currency": "BRL",
+    "currency_symbol": "R$",
+    "number_format": "pt-BR (ex: R$ 1.000,00 | 15,00%)",
+    "timezone": "America/Sao_Paulo",
+    "date_format": "dd/MM/yyyy"
+  },
+  "brand_identity": {
+    "name": "FAST INVESTIMENTOS",
+    "tagline": "SEU FUTURO EM BOAS MÃOS",
+    "logo_url": "https://customer-assets-jai6qajn.emergentagent.net/job_fee70e56-b87f-4055-9fce-88141fd35813/artifacts/610b6b53320f667c_Logo%20FAST%20Investimento%20em%20Verde%20Esmeralda.png",
+    "proportions": {
+      "graphite_dark": "65% (Base structure, page backgrounds, deep dark surfaces)",
+      "emerald_green": "25% (Secondary panels, brand cards, badges, modal headers, borders)",
+      "mint_green": "10% (Kinetic CTA triggers, active badges, profit indicators, high-contrast glow)"
+    }
+  },
+  "colors": {
+    "surfaces": [
+      {
+        "name": "page",
+        "kind": "solid",
+        "bg": "#1C1E21",
+        "on_bg": "#F5F7FA",
+        "on_bg_muted": "#A0AEC0",
+        "roles": {
+          "link": "#00E676",
+          "error": "#FF5252",
+          "success": "#00E676",
+          "warning": "#FFD740",
+          "info": "#29B6F6"
+        }
+      },
+      {
+        "name": "panel",
+        "kind": "solid",
+        "bg": "#141618",
+        "on_bg": "#FFFFFF",
+        "on_bg_muted": "#94A3B8",
+        "roles": {
+          "link": "#00E676",
+          "error": "#FF5252",
+          "success": "#00E676"
+        }
+      },
+      {
+        "name": "card_graphite",
+        "kind": "solid",
+        "bg": "#22252A",
+        "on_bg": "#FFFFFF",
+        "on_bg_muted": "#CBD5E1",
+        "roles": {
+          "border": "#2D3239",
+          "accent_highlight": "#00E676"
+        }
+      },
+      {
+        "name": "card_emerald",
+        "kind": "solid",
+        "bg": "#004D40",
+        "on_bg": "#FFFFFF",
+        "on_bg_muted": "#A7F3D0",
+        "roles": {
+          "border": "#00796B",
+          "glow": "rgba(0, 230, 118, 0.15)"
+        }
+      },
+      {
+        "name": "card_emerald_dark",
+        "kind": "solid",
+        "bg": "#002B24",
+        "on_bg": "#F0FDF4",
+        "on_bg_muted": "#86EFAC",
+        "roles": {
+          "border": "#004D40"
+        }
+      },
+      {
+        "name": "badge_mint",
+        "kind": "solid",
+        "bg": "#00E676",
+        "on_bg": "#0A1F14",
+        "on_bg_muted": "#0D2E1C"
+      },
+      {
+        "name": "hero",
+        "kind": "image",
+        "contrast_against": "#121417",
+        "guarantee": "scrim: linear-gradient(180deg, rgba(28,30,33,0.85) 0%, rgba(28,30,33,0.98) 100%)",
+        "on_bg": "#FFFFFF",
+        "on_bg_muted": "#CBD5E1",
+        "roles": {
+          "link": "#00E676",
+          "error": "#FF5252",
+          "success": "#00E676"
+        }
+      },
+      {
+        "name": "header_crystal",
+        "kind": "glass",
+        "contrast_against": "#1C1E21",
+        "guarantee": "backdrop-blur-xl bg-[#1C1E21]/85 border-b border-[#2D3239]",
+        "on_bg": "#FFFFFF",
+        "on_bg_muted": "#94A3B8"
+      },
+      {
+        "name": "whatsapp_floating",
+        "kind": "solid",
+        "bg": "#25D366",
+        "on_bg": "#FFFFFF",
+        "on_bg_muted": "#DCF8C6"
+      }
+    ],
+    "accent": "#00E676",
+    "on_accent": "#0A1F14",
+    "emerald": "#004D40",
+    "emerald_light": "#00796B",
+    "graphite_base": "#1C1E21",
+    "graphite_dark": "#121417",
+    "graphite_elevated": "#25282E",
+    "border_subtle": "#2D3239",
+    "border_emerald": "#004D40"
+  },
+  "typography": {
+    "font_heading": "'Sora Variable', sans-serif",
+    "font_sans": "'DM Sans Variable', sans-serif",
+    "font_mono": "'JetBrains Mono Variable', monospace",
+    "scale_px": {
+      "display": 56,
+      "h1": 44,
+      "h2": 32,
+      "h3": 22,
+      "body": 16,
+      "caption": 14
+    },
+    "hierarchy_rules": {
+      "hero_title": "text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-white",
+      "section_title": "text-2xl sm:text-3xl font-bold tracking-tight text-white",
+      "card_title": "text-lg sm:text-xl font-semibold text-white",
+      "stat_value": "font-mono text-2xl sm:text-3xl font-bold text-white tracking-tight",
+      "stat_mint": "font-mono text-2xl sm:text-3xl font-bold text-[#00E676] tracking-tight",
+      "label_overline": "text-xs font-semibold uppercase tracking-[0.15em] text-[#00E676]",
+      "body_text": "text-sm sm:text-base leading-relaxed text-[#CBD5E1]",
+      "caption_text": "text-xs sm:text-sm text-[#94A3B8]"
+    }
+  },
+  "entry_surfaces": {
+    "/": "split hero with branded value proposition + primary CTA on left, illustrative dynamic yield widget & live rate pill on right; followed by groups catalog GR50-GR1000, how it works, and human WhatsApp support",
+    "/login": "branded centered auth panel with FAST INVESTIMENTOS logo, quick credential login, remember-me, and password recovery triggers",
+    "/cadastro": "step-guided comprehensive registration panel covering Brazilian CPF, phone, full address (CEP with auto-fill helper), password rules, and terms acceptance"
+  },
+  "layouts_and_grids": {
+    "mobile_first_rules": [
+      "Designed primarily for mobile screen widths (320px, 360px, 390px, 412px, 768px, 1024px, 1440px).",
+      "Touch targets strictly >= 44px height (all buttons, select items, tab triggers).",
+      "Forms stack to single column on mobile, with auto-formatted inputs (CPF: 000.000.000-00, Phone: (00) 00000-0000, CEP: 00000-000).",
+      "Tables convert into structured mobile cards on viewports < 768px with full label-value clarity.",
+      "Zero horizontal scrolling on any viewport width; full fluid responsive grid containers.",
+      "Bottom padding `pb-24` on mobile views to ensure floating WhatsApp button never obscures interactive forms or checkout buttons."
+    ],
+    "grid_modes": {
+      "landing_groups": "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4 sm:gap-6",
+      "dashboard_kpis": "grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6",
+      "dashboard_investments": "space-y-4",
+      "admin_kpis": "grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6"
+    }
+  },
+  "investment_groups_data": [
+    { "id": "GR50", "code": "GR 50", "value": 50, "formatted": "R$ 50,00", "popular": false },
+    { "id": "GR100", "code": "GR 100", "value": 100, "formatted": "R$ 100,00", "popular": false },
+    { "id": "GR200", "code": "GR 200", "value": 200, "formatted": "R$ 200,00", "popular": false },
+    { "id": "GR300", "code": "GR 300", "value": 300, "formatted": "R$ 300,00", "popular": false },
+    { "id": "GR400", "code": "GR 400", "value": 400, "formatted": "R$ 400,00", "popular": false },
+    { "id": "GR500", "code": "GR 500", "value": 500, "formatted": "R$ 500,00", "popular": true },
+    { "id": "GR600", "code": "GR 600", "value": 600, "formatted": "R$ 600,00", "popular": false },
+    { "id": "GR700", "code": "GR 700", "value": 700, "formatted": "R$ 700,00", "popular": false },
+    { "id": "GR800", "code": "GR 800", "value": 800, "formatted": "R$ 800,00", "popular": false },
+    { "id": "GR1000", "code": "GR 1000", "value": 1000, "formatted": "R$ 1.000,00", "popular": true }
+  ],
+  "modalities_rules": {
+    "MOD_15": {
+      "name": "15 Dias Úteis",
+      "business_days": 15,
+      "fixed_yield_percent": 15.0,
+      "badge": "15% em 15 dias úteis",
+      "calculation_description": "Rendimento linear apurado a cada dia útil (1,00% ao dia útil)",
+      "ideal_for": "Ciclos ágeis de liquidez"
+    },
+    "MOD_30": {
+      "name": "30 Dias Úteis",
+      "business_days": 30,
+      "fixed_yield_percent": 35.0,
+      "badge": "35% em 30 dias úteis",
+      "calculation_description": "Rendimento linear apurado a cada dia útil (~1,167% ao dia útil)",
+      "ideal_for": "Máxima rentabilidade programada"
+    }
+  },
+  "motion_and_interactions": {
+    "engine": "tw-animate-css + Tailwind transitions + Motion for React",
+    "rules": [
+      "Hover transitions: use specific properties `transition-colors duration-200`, `transition-transform duration-200` (never universal transition: all).",
+      "Group Card hover: subtle lift `-translate-y-1` and mint border highlight `border-[#00E676]/60 shadow-[0_0_20px_rgba(0,230,118,0.15)]`.",
+      "CTA Button press: `active:scale-[0.98]` tactile click response.",
+      "Accordion / FAQ toggle: smooth expand/collapse transition.",
+      "Chart Tooltips: custom dark backdrop with emerald border and mint data readout."
+    ]
+  },
+  "media": {
+    "brand_logo": "https://customer-assets-jai6qajn.emergentagent.net/job_fee70e56-b87f-4055-9fce-88141fd35813/artifacts/610b6b53320f667c_Logo%20FAST%20Investimento%20em%20Verde%20Esmeralda.png",
+    "image_urls": [
+      {
+        "category": "hero_background_texture",
+        "description": "Financial analytics dark screen overlay for high-tech financial authority",
+        "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjBhbmFseXRpY3MlMjBkYXJrJTIwc2NyZWVufGVufDB8fHx8MTc5MTY4NjQwNnww&ixlib=rb-4.1.0&q=85"
+      },
+      {
+        "category": "transparency_and_institutional",
+        "description": "Brazilian business agreement and security handshake",
+        "url": "https://images.unsplash.com/photo-1521791136064-7986c2920216?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzN8MHwxfHNlYXJjaHwyfHxicmF6aWxpYW4lMjBidXNpbmVzcyUyMGhhbmRzaGFrZSUyMG1lZXRpbmd8ZW58MHx8fHwxNzkxNjg2NDA2fDA&ixlib=rb-4.1.0&q=85"
+      },
+      {
+        "category": "human_support",
+        "description": "Executive partnership and direct human consultation",
+        "url": "https://images.unsplash.com/photo-1752159400890-d906038f1b35?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzN8MHwxfHNlYXJjaHw0fHxicmF6aWxpYW4lMjBidXNpbmVzcyUyMGhhbmRzaGFrZSUyMG1lZXRpbmd8ZW58MHx8fHwxNzkxNjg2NDA2fDA&ixlib=rb-4.1.0&q=85"
+      }
+    ]
+  },
+  "component_hierarchy": {
+    "landing": [
+      "HeaderNav (Logo + Links: Como Funciona, Grupos, Transparência, FAQ + Entrar + Criar Conta)",
+      "HeroSection (Headline, Value proposition, Primary CTAs, Live Yield Simulation Card)",
+      "HowItWorksCarousel (1. Escolha o Grupo -> 2. Defina o Prazo -> 3. Ativação Segura -> 4. Acompanhe a Apuração Diária)",
+      "InvestmentGroupsCatalog (10 Group Cards GR 50 to GR 1000 with interactive modal details)",
+      "TransparencySection (Security principles, daily linear calculation engine, zero unbacked claims)",
+      "FAQSection (Collapsible questions regarding terms, business days calculation, payment links, and withdrawals)",
+      "Footer (Institutional links, compliance disclaimers, WhatsApp prompt, copyright)"
+    ],
+    "client_dashboard": [
+      "DashboardHeader (Saudação personalizada com nome do investidor, badge de status da conta, botão rápido de Resgate)",
+      "KpiSummaryGrid (1. Total Investido Ativo | 2. Resultado Acumulado Apurado vs Projetado | 3. Saldo Disponível para Resgate)",
+      "CtaBanner ('COMEÇAR A INVESTIR' - Large high-contrast Mint button opening catalog/modal)",
+      "MyInvestmentsList (Cards de cada investimento ativo/concluído com grupo, valor inicial, modalidade, dias decorridos, apuração diária e mini gráfico de linha compacto Recharts)",
+      "InvestmentDetailDialog (Extrato diário detalhado de evolução do rendimento por dia útil)",
+      "WithdrawalRequestModal (Formulário simples de solicitação de resgate com chave PIX e confirmação)",
+      "HistoryAndStatementsTab (Histórico completo de aportes, rendimentos creditados e saques)"
+    ],
+    "admin_backoffice": [
+      "AdminHeader (Resumo do sistema, status operacional, fuso America/Sao_Paulo)",
+      "AdminKpiCards (Total de Clientes, Volume Custodiado, Saques Pendentes, Pagamentos a Confirmar)",
+      "ClientsManagementTable (Busca por CPF/Nome, detalhes cadastrais, status da conta)",
+      "InvestmentsAuditingTable (Visão de todos os contratos de investimento ativos no sistema)",
+      "WithdrawalsApprovalQueue (Solicitações de resgate com botões Aprovar/Rejeitar com campo de justificativa obrigatório e log de auditoria)",
+      "SystemSettingsPanel (Configuração do Link de Pagamento de Checkout e do Número de WhatsApp de Atendimento)"
+    ],
+    "global_widgets": [
+      "FloatingWhatsAppButton (Botão flutuante inferior direito, ícone WhatsApp oficial, badge de 'Atendimento Humano', responsivo sem cobrir inputs)",
+      "ModalGroupCheckout (Seleção da modalidade 15d ou 30d, resumo de retorno projetado e redirecionamento para o checkout configurado)"
+    ]
+  },
+  "accessibility_and_testing": {
+    "test_id_rules": "All interactive elements (buttons, links, inputs, tabs, group cards, action buttons) MUST have kebab-case `data-testid` attributes (e.g. data-testid='cta-hero-investir', data-testid='group-card-gr50', data-testid='login-submit-button', data-testid='admin-approve-withdrawal-btn').",
+    "form_accessibility": "All inputs mapped with explicit label element and `id`. Brazilian mask inputs for CPF, CEP, and Phone should maintain clean unmasked raw values in state.",
+    "contrast_check": "Every text color token maintains WCAG AA (4.5:1+) ratio on dark graphite `#1C1E21`, deep graphite `#141618`, and emerald `#004D40` backgrounds."
+  },
+  "instructions_to_main_agent": [
+    "1. Apply Dark Graphite `#1C1E21` as the base canvas, Deep Emerald `#004D40` for secondary brand containers, and Mint `#00E676` for high-impact CTAs and yield accents.",
+    "2. Use the official provided FAST INVESTIMENTOS logo url in both Landing Nav, Auth Screens, and Dashboard headers.",
+    "3. Build all 10 investment groups (GR 50 to GR 1.000) with both modalities (15 business days @ 15% and 30 business days @ 35%).",
+    "4. Ensure date and yield calculations follow Brazilian business days (dias úteis) with timezone `America/Sao_Paulo`.",
+    "5. Ensure the floating WhatsApp button is present across all pages, configurable from admin settings, and positioned with proper z-index and bottom safe margins so it doesn't collide with mobile actions.",
+    "6. Build a complete, responsive Admin Panel with withdrawal approvals (including justification note) and settings management for payment link and WhatsApp number.",
+    "7. Include complete test IDs across all clickable and informational items for automated verification."
+  ]
+}
